@@ -1,0 +1,63 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.enter{
+    background-color: black;
+    color:white;
+    padding:20px; 
+    text-align: center;
+
+}
+li{
+    display: inline;
+    color:grey;
+    cursor:pointer;
+}
+li:hover{
+    color:white ;
+}
+h1{
+    display:inline;
+}
+.foods{
+    text-align:center;
+    margin:15px;    
+}
+h4{
+    background-color: black;
+    color:white;
+    display: inline-block;
+}
+
+.box{
+    display:inline-block;
+    border:2px black solid;
+    width:220px;
+}
+.bp:hover{
+    background-color:black;
+    color:white;
+}
+
+.form{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+h1{
+    display:inline;
+}
+.labelform{
+    display: inline;
+    text-align: center;   
+}
+.fold{
+    margin:10px;
+}
+.submit{
+    background-color: yellow;
+    color:black;
+    width:400px;
+    /* margin-left:1% */
+}

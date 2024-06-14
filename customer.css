@@ -1,0 +1,37 @@
+*{
+    background-color:black;
+}
+
+h1{
+    margin-top:20px;;
+    background-color: black;
+    color:pink;
+    text-align: center;
+    
+    
+}
+input{
+    color:white;
+}
+
+
+
+
+
+.form{
+    margin:50px;
+      
+      color: white;
+      text-align:center;
+      
+}
+.design{
+    padding: 10px;
+    color:white ;
+    
+}
+.submit{
+    width:400px;
+    background-color: yellow;
+    color:black;
+}
