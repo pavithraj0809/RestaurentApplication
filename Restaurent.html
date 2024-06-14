@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="Restaurent.css">
-        <title>RESTAURENT</title>
-    
-    <body>
-        <div class="enter">
-            <h1>Reestar</h1>  
-         <ul>
-           <li>Home|</li>
-           <li>Receipe|</li>
-           <li>Contact</li>
-         </ul>
+
+<head>
+  <link rel="stylesheet" href="Restaurent.css">
+  <title>RESTAURENT</title>
+
+<body>
+  <div class="enter">
+    <h1>Reestar</h1>
+    <ul>
+      <li>Home|</li>
+      <li>Receipe|</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div class="foods">
+    <div class="box">
+      <div class="imgScr">
+      <img src="./images/pasta.jpg" >
+    </div>
+      <div class="bp ">
+        <h3>Pasta</h3>
+        <p>Pasta is a declious food</p>
+        <a href="customer.html?Pasta">ordernow</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgScr">
+        <img src="./images/pza.jpg">
+      </div>
+      <div class="bp ">
+        <h3>Burger</h3>
+        <p> Burger is a delicious food</p>
+        <a href="customer.html?burger">ordernow</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgScr">
+
+      <img src="./images/briyani.jpg">
+      </div>
+      <div class="bp ">
+        <h3>Briyani</h3>
+        <p>Briyani is a declious food</p>
+        <a href="customer.html?briyani">ordernow</a>
+
+      </div>
+    </div>
+    <div class="box">
+      <div class="imgScr">
+      <img src="./images/pizza.jpg">
+    </div>
+      <div class="bp">
+        <h3>Pizza</h3>
+        <p>Pizza is a declious food</p>
+        <a href="customer.html?pizza">ordernow</a>
+      </div>
+    </div>
+  </div>
+  <form action="http://localhost:4000" method="post">
+    <div class="form">
+      <h1>Contact us</h1>
+      <div class="labelform">
+        <div class="fold">
+          <label>Name :</label>
+          <input type="text" name="name" placeholder="Name">
+        </div>
+        <div class="fold">
+          <label>Age &nbsp;&nbsp;:</label>
+          &nbsp; <input type="number" name="age" placeholder="Age">
+        </div>
+        <div class="fold">
+          <label>Email :</label>
+          <input type="text" name="email" placeholder="Email">
         </div>
 
-        <div class="foods">
-            <div class="box">
-                <img src="https://source.unsplash.com/220x280/?pasta">
-                <div class="bp">
-                  <h3>Pasta</h3> 
-                  <p>Pasta is a declious food</p>
-                  <a href="customer.html?Pasta">ordernow</a>
-                </div>
-           </div>
-           <div class="box">
-                <img src="https://source.unsplash.com/220x280/?burger">
-                <div class="bp">
-                <h3>Burger</h3>
-                <p> Burger is a delicious food</p>
-                <a href="customer.html?burger">ordernow</a>
-                </div>
-           </div>
-           <div class="box">
-                <img src="https://source.unsplash.com/220x280/?briyani">
-                <div class="bp">
-                 <h3>Briyani</h3>
-                 <p>Briyani is a declious food</p>
-                 <a href="customer.html?briyani">ordernow</a>
-                
-                 </div>
-           </div>
-           <div class="box">
-               <img src="https://source.unsplash.com/220x280/?pizza">
-               <div class="bp">
-                <h3>Pizza</h3>
-                <p>Pizza is a declious food</p>
-                <a href="customer.html?pizza">ordernow</a>
-                </div>
-           </div>
-        </div>
-        <form action="http://localhost:4000" method="post">
-            <div class="form" >
-                <h1>Contact us</h1>
-                <div class="labelform">
-                     <div class="fold">
-                        <label>Name :</label>
-                        <input type="text" name="name" placeholder="Name">
-                     </div>
-                     <div class="fold">
-                        <label>Age &nbsp;&nbsp;:</label>
-                        &nbsp; <input type="number" name="age" placeholder="Age">
-                     </div>
-                     <div class="fold">
-                       <label>Email :</label>
-                       <input type="text" name="email" placeholder="Email">
-                      </div>
-                
-                  
-                        <input class="submit" type="submit" placeholder="submit"/>
-            
-                </div>    
-            </div>
-    </form>
-    </body>
-    </head>
+
+        <input class="submit" type="submit" placeholder="submit" />
+
+      </div>
+    </div>
+  </form>
+</body>
+</head>
+
 </html>

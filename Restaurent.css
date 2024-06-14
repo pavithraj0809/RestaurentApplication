@@ -33,7 +33,9 @@ h4{
 .box{
     display:inline-block;
     border:2px black solid;
-    width:220px;
+    width:280px;
+    /* height:300px; */
+    padding:3px;
 }
 .bp:hover{
     background-color:black;
@@ -60,4 +62,11 @@ h1{
     color:black;
     width:400px;
     /* margin-left:1% */
+}
+.imgScr{
+    width:280px;
+    height:300px;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
 }
